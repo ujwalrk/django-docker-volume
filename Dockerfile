@@ -19,4 +19,4 @@ RUN pip install -r requirements.txt
 EXPOSE 8000
 
 # Run Django development server
-CMD ["python", "manage.py", "runserver", "0.0.0.0:8000", "13.233.97.115:8000"]
+CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
